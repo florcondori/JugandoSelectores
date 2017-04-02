@@ -1,0 +1,47 @@
+body{
+	margin: 10px 100px;
+	color: black;
+}
+h1{
+	color: #38AEA2;
+}
+table{
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+	border:1px solid black;
+	border-collapse: collapse;
+
+}
+.text-rojo{
+	color: red;
+}
+.text-mostaza{
+	color: #F79D0A;
+}
+.text-militar{
+	color: #5C7924;
+}
+.text-verde{
+	color: #1DDB33;
+	font-weight: normal;
+}
+.text-lila{
+	color:#D32BCA;
+}
+.text-morado{
+	color: #582479;
+}
+a span{
+	font-style: oblique;
+}
+a{
+	font-weight: normal;
+}
+.oblique{
+	font-style: oblique;
+}
+.text-azul{
+	color: blue;
+}
+p span[class="text-rojo"]{
+	font-weight: bold;
+}

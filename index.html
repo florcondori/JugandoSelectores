@@ -2,36 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>jugando con Selectores</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<h1>Titulo del Documento</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span>Reiciendis rem</span>, eum fugiat, non, rerum molestias magni similique tenetur a mollitia doloribus amet nihil necessitatibus! Tempora, ullam hic aspernatur suscipit. <span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Quis quibusdam cum et minima in magni mollitia eum necessitatibus consequuntur.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span class="text-rojo">Reiciendis rem</span>, eum fugiat, non, rerum molestias magni similique tenetur a mollitia doloribus amet nihil necessitatibus! Tempora, ullam hic aspernatur suscipit. <span class="text-mostaza">Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Quis quibusdam cum et minima in magni mollitia eum necessitatibus consequuntur.</p>
 
-	<h2>Subtitulo de la pagina</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="">Quae perspiciatis quasi quod, <span>molestiae rem</span>, eius aliquid</a>, minus vero sunt sed nemo reiciendis. Accusamus expedita asperiores, quibusdam suscipit distinctio libero esse.Quae perspiciatis <span>quasi quod</span>. Mollitia eum necessitatibus</p>
+	<h2 class="text-azul">Subtitulo de la pagina</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="" class="text-rojo">Quae perspiciatis quasi quod, <span class="text-azul">molestiae rem</span>, eius aliquid</a>, minus vero sunt sed nemo reiciendis. Accusamus expedita asperiores, quibusdam suscipit <span class="text-morado">distinctio libero esse.Quae perspiciatis quasi quod</span>. Mollitia eum necessitatibus</p>
 	<table>
-		<caption>Titulo de la tabla</caption>
-		<tr>
+		<caption class="text-azul">Titulo de la tabla</caption>
+		<tr class="text-mostaza">
 			<td></td>
-			<td>Titulo de Columna1</td>
-			<td>Titulo de Columna2</td>
+			<th>Titulo de Columna1</th>
+			<th>Titulo de Columna2</th>
 		</tr>
-		<tr>
-			<td>Titulo Fila1</td>
-			<td></td>
-			<td></td>
+		<tr class="text-mostaza">
+			<th>Titulo Fila1</th>
+			<td class="text-verde">Dolor sit amet</td>
+			<td class="text-verde">Quibusdam <span class="oblique">cum et</span></td>
 		</tr>
-		<tr>
-			<td>Titulo Fila2</td>
-			<td></td>
-			<td></td>
+		<tr class="text-rojo">
+			<th>Titulo Fila2</th>
+			<td class="text-verde">Dolor <span class="text-mostaza">sit amet</span></td>
+			<td class="text-verde">Quibusdam cum et</td>
 		</tr>
-		<tr>
+		<tr class="text-rojo">
 			<td></td>
-			<td>Titulo de Columna1</td>
-			<td>Titulo de Columna2</td>
+			<th>Titulo de Columna1</th>
+			<th>Titulo de Columna2</th>
 		</tr>
 	</table>
+	<div class="text-militar">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur.</p>
+		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. <span class="text-lila">Excepteur sint occaecat cupidatat non
+		proident</span>, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. <a href="" class="text-verde">Ut enim ad minim veniam</a>,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	
 </body>
 </html>
